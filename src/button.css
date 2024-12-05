@@ -5,6 +5,9 @@ button {
     border-radius: 5px;
     border: none;
     color: white;
-    background-color: red;
+    background-color: #ff0000;
     margin-left: 20px;
+}
+button:hover {
+    background-color: #ac0000;
 }

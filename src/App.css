@@ -7,15 +7,16 @@
 }
 
 .counter {
-  width: 370px;
-  height: 350px;
-  margin: auto;
-  padding: 40px;
+  /*width: 500px;*/
+  /*height: 500px;*/
+  /*margin: auto;*/
+  /*padding: 40px;*/
   /*border: 1px solid red;*/
   h1 {
     font-size: 40px;
-    text-align: center;
-    margin-bottom: 80px;
+    /*text-align: center;*/
+    margin-left: 30px;
+    margin-bottom: 50px;
   }
   .count-btn1 {
     width: 80px;
@@ -23,9 +24,12 @@
     border-radius: 5px;
     border: none;
     color: white;
-    background-color: green;
+    background-color: #00c600;
     margin-right: 20px;
     margin-bottom: 35px;
+  }
+  .count-btn1:hover {
+    background-color: #007000;
   }
   span {
     font-size: 50px;
@@ -38,6 +42,9 @@
     border: none;
     color: white;
     background-color: gray;
-    margin-left: 102px;
+    /*margin-left: 102px;*/
+  }
+  .count-btn3:hover {
+    background-color: #4c4c4c;
   }
 }
